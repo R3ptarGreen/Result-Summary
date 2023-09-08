@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="/dist/output.css">
   <title>Results summary component</title>
 </head>
-<body class="text-textBase font-hanken font-500">
+<body class="text-textBase font-hanken font-500 text-darkGrayBlue">
   <main class="flex flex-col items-center">
     <section class="flex items-center flex-col bg-gradientSlateRoyalBlue rounded-b-3xl py-4 w-full">
-      <div class="border border-violet-50 flex flex-col items-center text-center gap-4">
+      <div class="flex flex-col items-center text-center gap-4">
         <h3 class="text-paleBlue">
           Your Result
         </h3>
@@ -23,12 +23,12 @@
           <h2 class="text-5xl font-700 text-white mx-2">
             76  
           </h2>
-          <span class="text-sm">
+          <span class="text-sm text-lightLavender">
             of 100
           </span>
         </div>
       </div>
-      <div class="border border-amber-400 flex flex-col items-center my-4">
+      <div class="flex flex-col items-center my-4">
         <h2 class="font-600 text-white">
           Great
         </h2>
@@ -37,51 +37,63 @@
         </p>
       </div>
     </section>
-    <section class="flex flex-col gap-2 border border-black w-full px-6 py-4">
+    <section class="flex flex-col gap-2 w-full px-6 py-4">
       <ul class="w-full flex flex-col gap-4 mb-2">
         <li>
-          <h3 class="border border-red-600">
+          <h3 class="text-darkGrayBlue font-600">
             Summary
           </h3>
         </li>
-        <li class="flex justify-between">
+        <li class="flex justify-between p-4 bg-lightRedBg rounded-lg font-700 ">
           <span class="flex">
-            <img src="" alt="Reaction-icon">
-            <p>Reaction</p>
+            <img class="mr-4" src="/assets/images/icon-reaction.svg" alt="Reaction-icon">
+            <p class="text-lightRed">Reaction</p>
           </span>
-          <span>
-            80 / 100
-          </span>
+          <p>
+            80 
+            <span class="text-lightDarkGrayBlue">
+              / 100
+            </span>
+          </p>
         </li>
-        <li class="flex justify-between">
+        <li class="flex justify-between p-4 bg-orangeYellowBg rounded-lg font-700 ">
           <span class="flex">
-            <img src="" alt="Memory-icon">
-            <p>Memory</p>
+            <img class="mr-4" src="/assets/images/icon-memory.svg" alt="Memory-icon">
+            <p class="text-orangeYellow">Memory</p>
           </span>
-          <span>
-            92 / 100
-          </span>
+          <p>
+            92
+            <span class="text-lightDarkGrayBlue">
+              / 100
+            </span>
+          </p>
         </li>
-        <li class="flex justify-between">
+        <li class="flex justify-between p-4 bg-greenTealBg rounded-lg font-700 ">
           <span class="flex">
-            <img src="" alt="Verbal-icon">
-            <p>Verbal</p>
+            <img class="mr-4" src="/assets/images/icon-verbal.svg" alt="Verbal-icon">
+            <p class="text-greenTeal">Verbal</p>
           </span>
-          <span>
-            61 / 100
+          <p>
+            61
+          <span class="text-lightDarkGrayBlue">
+            / 100
           </span>
+          </p>
         </li>
-        <li class="flex justify-between">
+        <li class="flex justify-between p-4 bg-cobaltBlueBg rounded-lg font-700 ">
           <span class="flex">
-            <img src="" alt="Visual-icon">
-            <p>Visual</p>
+            <img class="mr-4" src="/assets/images/icon-visual.svg" alt="Visual-icon">
+            <p class="text-cobaltBlue">Visual</p>
           </span>
-          <span>
-            72 / 100
-          </span>
+          <p>
+            72
+            <span class="text-lightDarkGrayBlue">
+              / 100
+            </span>
+          </p>
         </li>
       </ul>
-      <button class="bg-slate-600 py-2 rounded-3xl">Continue</button>
+      <button class="bg-darkGrayBlue py-2 rounded-3xl text-white">Continue</button>
     </section>
   </main>  
   <div class="attribution">
