@@ -8,8 +8,6 @@ module.exports = {
         orangeYellow: 'hsl(39, 100%, 56%)',
         greenTeal: 'hsl(166, 100%, 37%)',
         cobaltBlue: 'hsl(234, 85%, 45%)',
-        lightSlateBlue: 'hsl(252, 100%, 67%)',
-        lightRoyalBlue: 'hsl(241, 81%, 54%)',
         white: 'hsl(0, 0%, 100%)',
         paleBlue: 'hsl(221, 100%, 96%)',
         lightLavender: 'hsl(241, 100%, 89%)',
@@ -25,8 +23,10 @@ module.exports = {
         500: '500',
         600: '600',
         700: '700'
-      
-    },
+      },
+      backgroundImage: {
+        gradientSlateRoyalBlue: 'linear-gradient(5deg,hsl(241,81%,54%) 0%, hsl(252,100%,67%) 90%)',
+      },
     plugins: [],
     },
   }
