@@ -13,14 +13,15 @@
   <title>Results summary component</title>
 </head>
 <body class="text-textBase font-hanken font-500 text-darkGrayBlue">
-  <main class="flex flex-col items-center">
-    <section class="flex items-center flex-col bg-gradientSlateRoyalBlue rounded-b-3xl py-4 w-full">
-      <div class="flex flex-col items-center text-center gap-4">
-        <h3 class="text-paleBlue">
-          Your Result
-        </h3>
-        <div class="border border-red-50 flex flex-col items-center rounded-full pt-6 w-28 h-28 text-center">
-          <h2 class="text-5xl font-700 text-white mx-2">
+  <main class="h-[95vh] flex items-center justify-center">
+    <div class="w-full sm:max-w-xl sm:flex">
+      <section class="flex items-center flex-col bg-gradientSlateRoyalBlue rounded-b-3xl sm:rounded-3xl rounded py-4 w-full sm:justify-center">
+        <div class="flex flex-col items-center text-center gap-4">
+          <h3 class="text-paleBlue">
+            Your Result
+          </h3>
+        <div class="border border-red-50 flex flex-col items-center rounded-full pt-6 w-32 h-32 text-center">
+          <h2 class="text-6xl font-700 text-white mx-2">
             76  
           </h2>
           <span class="text-sm text-lightLavender">
@@ -38,13 +39,13 @@
       </div>
     </section>
     <section class="flex flex-col gap-2 w-full px-6 py-4">
-      <ul class="w-full flex flex-col gap-6 mb-2">
+      <ul class="w-full flex flex-col gap-4 mb-2">
         <li>
           <h3 class="text-darkGrayBlue font-600 mt-2">
             Summary
           </h3>
         </li>
-        <li class="flex justify-between p-4 bg-lightRedBg rounded-lg font-700 ">
+        <li class="flex justify-between p-3 bg-lightRedBg rounded-lg font-700 ">
           <span class="flex">
             <img class="mr-4" src="/assets/images/icon-reaction.svg" alt="Reaction-icon">
             <p class="text-lightRed">Reaction</p>
@@ -56,7 +57,7 @@
             </span>
           </p>
         </li>
-        <li class="flex justify-between p-4 bg-orangeYellowBg rounded-lg font-700 ">
+        <li class="flex justify-between p-3 bg-orangeYellowBg rounded-lg font-700 ">
           <span class="flex">
             <img class="mr-4" src="/assets/images/icon-memory.svg" alt="Memory-icon">
             <p class="text-orangeYellow">Memory</p>
@@ -68,19 +69,19 @@
             </span>
           </p>
         </li>
-        <li class="flex justify-between p-4 bg-greenTealBg rounded-lg font-700 ">
+        <li class="flex justify-between p-3 bg-greenTealBg rounded-lg font-700 ">
           <span class="flex">
             <img class="mr-4" src="/assets/images/icon-verbal.svg" alt="Verbal-icon">
             <p class="text-greenTeal">Verbal</p>
           </span>
           <p>
             61
-          <span class="text-lightDarkGrayBlue">
-            / 100
-          </span>
+            <span class="text-lightDarkGrayBlue">
+              / 100
+            </span>
           </p>
         </li>
-        <li class="flex justify-between p-4 bg-cobaltBlueBg rounded-lg font-700 ">
+        <li class="flex justify-between p-3 bg-cobaltBlueBg rounded-lg font-700 ">
           <span class="flex">
             <img class="mr-4" src="/assets/images/icon-visual.svg" alt="Visual-icon">
             <p class="text-cobaltBlue">Visual</p>
@@ -95,6 +96,7 @@
       </ul>
       <button class="bg-darkGrayBlue py-4 mt-4 rounded-3xl text-white">Continue</button>
     </section>
+  </div>
   </main>  
   <div class="w-full text-center">
     Coded by <a href="#">Edgar Mendez</a>.
