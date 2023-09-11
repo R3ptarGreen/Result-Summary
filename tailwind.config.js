@@ -30,7 +30,11 @@ module.exports = {
         700: '700'
       },
       backgroundImage: {
-        gradientSlateRoyalBlue: 'linear-gradient(5deg,hsl(241,81%,54%) 0%, hsl(252,100%,67%) 90%)',
+        gradientSlateRoyalBlue: 'linear-gradient(180deg,#6541fd 0%, #452ee1 80%);',
+        gradientNeo: 'linear-gradient(151deg,#4828d4 0%, #452ee1 80%);'
+      },
+      boxShadow: {
+        blueShadow: '3px 3px 15px 0px hsla(234, 85%, 45%, 0.125)',
       },
     plugins: [],
     },
