@@ -5,7 +5,6 @@
 .prettierignore
 fonts
 design
-data.json
 README-template.md
 style-guide.md
 node_modules
