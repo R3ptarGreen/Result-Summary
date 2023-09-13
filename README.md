@@ -1,6 +1,6 @@
 # Project: Online Learning Platform
 
-[![Author Logo](/assets/images/EM-2.png){width=100}](/assets/images/EM-2.png)
+<img src="/assets/images/EM-2.png" alt="Logo" width="100">
 
 ## Project Description
 
@@ -27,8 +27,8 @@ Result summary components a project to practice tailwind css; the design was pro
 
 ### Screenshot
 
-<img src="/assets/images/Desktop.png" alt="Descripción de la imagen" width="400">
-[![mobile](/assets/images/mobile.jpeg){width=400}](/assets/images/mobile.jpeg)
+<img src="/assets/images/Desktop.png" alt="Desktop" width="400">
+<img src="/assets/images/mobile.png" alt="mobile" width="400">
 
 ### Links
 
