@@ -27,7 +27,7 @@ Result summary components a project to practice tailwind css; the design was pro
 
 ### Screenshot
 
-[![desktop](/assets/images/Desktop.png){width=400}](/assets/images/Desktop.png)
+<img src="/assets/images/Desktop.png" alt="Descripción de la imagen" width="400">
 [![mobile](/assets/images/mobile.jpeg){width=400}](/assets/images/mobile.jpeg)
 
 ### Links
