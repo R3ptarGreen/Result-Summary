@@ -28,7 +28,7 @@ Result summary components a project to practice tailwind css; the design was pro
 ### Screenshot
 
 <img src="/assets/images/Desktop.png" alt="Desktop" width="400">
-<img src="/assets/images/mobile.png" alt="mobile" width="400">
+<img src="/assets/images/mobile.jpeg" alt="mobile" width="400">
 
 ### Links
 
