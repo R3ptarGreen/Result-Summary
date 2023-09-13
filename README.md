@@ -1,6 +1,6 @@
 # Project: Online Learning Platform
 
-![Author Logo](/assets/images/EM-2.png)
+[![Author Logo](/assets/images/EM-2.png){width=100}](/assets/images/EM-2.png)
 
 ## Project Description
 
@@ -27,12 +27,12 @@ Result summary components a project to practice tailwind css; the design was pro
 
 ### Screenshot
 
-![desktop](/images/desktop.png)
-![mobile](/images/mobile.jpeg)
+[![desktop](/assets/images/Desktop.png){width=400}](/assets/images/Desktop.png)
+[![mobile](/assets/images/mobile.jpeg){width=400}](/assets/images/mobile.jpeg)
 
 ### Links
 
-- Live Site URL: [HUDDLE](https://kaleidoscopic-concha-9dc626.netlify.app/)
+- Live Site URL: [RESULTS SUMMARY](https://fluffy-queijadas-605e28.netlify.app/)
 
 ### Contribution
 
